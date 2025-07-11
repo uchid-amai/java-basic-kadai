@@ -2,13 +2,11 @@ package kadai_015;
 
 public class Car_Chapter15 {
 	//フィールド
-	private int gear = 0;   //1速から5速のギアを表す
+	private int gear = 1;   //1速から5速のギアを表す
 	private int speed = 10; //ギアチェンジ後の速度を表す
 	
 	//コンストラクタ
 	public Car_Chapter15() {
-		this.gear = gear;
-		this.speed = speed;
 		
 		System.out.println("現在のギアは" + this.gear);
 		System.out.println("現在の速度は時速" + this.speed + "km");
