@@ -2,8 +2,8 @@ package kadai_015;
 
 public class Car_Chapter15 {
 	//フィールド
-	public int gear = 0;   //1速から5速のギアを表す
-	public int speed = 10; //ギアチェンジ後の速度を表す
+	private int gear = 0;   //1速から5速のギアを表す
+	private int speed = 10; //ギアチェンジ後の速度を表す
 	
 	//コンストラクタ
 	public Car_Chapter15() {
